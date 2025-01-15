@@ -8,7 +8,10 @@ func main() {
 
 	// hand, remainingDec := deal(cards, 1)
 	// fmt.Println(hand,remainingDec)
-	fmt.Println(cards.toString())
+	// fmt.Println(cards.toString())
 	cards.saveToFile("myCards")
+	cards.shuffle();
+	fmt.Println(cards)
+
 
 }
